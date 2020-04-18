@@ -3,8 +3,16 @@ header img {
   justify-content: center;
   align-content:center;
   margin:auto;
+  padding-bottom: 5px;
 }
 
+header {
+  margin: 0;
+}
+
+header a {
+  padding: 0;
+}
 /*styling the navigation*/
 
 .nav {
@@ -25,6 +33,7 @@ header img {
   color: #fff;
   font-size: 18px;
   line-height: 30px;
+  text-decoration: none;
 }
 .nav button {
   border: none;
@@ -34,11 +43,6 @@ header img {
   height: 44px;
 }
 
-.nav button:hover {
-  background-color: 
-}
-
-
 .nav a:hover {
   background-color: #2cb9f2;
 }
@@ -47,7 +51,7 @@ header img {
   display: none;
   position: absolute;
   background-color: #0094d0;
-  min-width: 160px;
+  width: 230px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -59,17 +63,45 @@ header img {
   text-decoration: none;
   display: block;
   text-align: left;
+  margin: 0;
 }
 
 .c:hover
   .c-dropdown {
   display: block;
 }
+
 .m:hover .m-dropdown{
   display: block;
 }
 
+.photo-options {
+  display: none;
+  position: absolute;
+  background-color: #0094d0;
+  width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
+.photo-options a {
+  float: none;
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin: 0;
+}
+
+.photo-opt-dropdown:hover
+  .photo-options {
+  display: block;
+}
+
+.photo-options a {
+  padding-left: 30px;
+}
 
 .nav-container {
   background-color: #0094d0;
