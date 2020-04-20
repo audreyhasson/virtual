@@ -168,4 +168,12 @@ p {
 
 h1 {
   text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+/* lrc page styling */
+
+.lrc-options {
+  display: flex;
 }
