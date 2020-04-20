@@ -145,3 +145,27 @@ footer li, a {
   color: #fff;
   padding: 7px;
 }
+
+/* template page styling */
+
+p {
+  font-size: 18px;
+}
+
+.page-content {
+  display: flex;
+
+}
+
+.page-text {
+  padding: 30px;
+  text-align: center;
+}
+
+.price-text {
+  font-size: 24px;
+}
+
+h1 {
+  text-align: center;
+}
