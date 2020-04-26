@@ -262,3 +262,30 @@ h1 {
 .content-links {
   margin: auto;
 }
+
+/* contact form */
+
+.contact-form input {
+  display: block;
+  margin: 10px;
+}
+
+.contact-form label {
+  margin: auto;
+}
+
+#submit-btn {
+  outline-color: #0094d0;
+  outline-style: solid;
+  outline-width: 2px;
+  color: #0094d0;
+}
+
+#submit-btn:active {
+  color: #000;
+  outline-color: #000;
+}
+
+.hideMe {
+  display: none;
+}
