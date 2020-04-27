@@ -32,7 +32,7 @@ header a {
   margin-right: 10px;
   color: #fff;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 44px;
   text-decoration: none;
 }
 .nav button {
@@ -151,7 +151,7 @@ footer {
   margin-top: 64px;
 }
 
-footer li, a {
+footer li, footer a {
   color: #fff;
   padding: 7px;
 }
@@ -184,6 +184,40 @@ h1 {
   text-align: center;
   font-size: 30px;
   font-weight: normal;
+  width: 1000px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: normal;
+  margin-left: 30px;
+}
+
+/* contact btn */
+
+.contact-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0094d0;
+  font-size: 24px;
+  padding: 10px 25px 10px 15px;
+  margin-top: 10px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.arrow {
+  padding: 0px 10px 0px 0px;
+}
+
+.contact-btn:hover
+  .arrow {
+  padding: 0px 0px 0px 10px;
+  transition: all .2s ease-in-out;
 }
 
 /* lrc page styling */
@@ -257,6 +291,7 @@ h1 {
 
 .contact-content a {
   text-decoration: none;
+  color: #fff;
 }
 
 .content-links {
@@ -274,18 +309,6 @@ h1 {
   margin: auto;
 }
 
-#submit-btn {
-  outline-color: #0094d0;
-  outline-style: solid;
-  outline-width: 2px;
-  color: #0094d0;
-}
-
-#submit-btn:active {
-  color: #000;
-  outline-color: #000;
-}
-
-.hideMe {
-  display: none;
+#c-h1 {
+  margin: 15px;
 }
