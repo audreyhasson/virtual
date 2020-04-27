@@ -1,4 +1,0 @@
-AuthUserFile /.htpasswd
-AuthName "info.html"
-AuthType Basic
-require valid-user
