@@ -109,6 +109,14 @@ header a {
   padding: 0;
 }
 
+.hideMe {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
 html, body {
   margin: 0px;
 }
@@ -311,4 +319,114 @@ h2 {
 
 #c-h1 {
   margin: 15px;
+}
+
+/* mobile version! */
+
+@media only screen and (max-width: 992px) {
+  html {
+    display: grid;
+    margin: 0;
+  }
+  body {
+    display: grid;
+    margin: 0;
+  }
+  .hideMe {
+    display: none
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-only {
+    display: flex;
+  }
+  .mobile-n-btn {
+    background-color: #0094d0;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    font-family: inherit;
+    margin: 10px;
+    justify-content: flex-end;
+    width: 120px;
+  }
+  .nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+  }
+  .nav a, .nav button {
+    font-size: 40px;
+    padding: 5px;
+  }
+  footer {
+    font-size: 30px;
+    text-align: center;
+  }
+  footer li {
+    padding: 10px;
+  }
+  p {
+    font-size: 40px;
+  }
+  img {
+    object-fit: contain;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .contact-btn {
+    font-size: 50px;
+  }
+  .contact-container {
+    justify-content: center;
+    margin: auto;
+  }
+  #homepage {
+    font-size: 50px;
+  }
+  .main-container {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 140px;
+
+  }
+  .page-content {
+    width: 1000px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .page-content img {
+    margin: auto;
+  }
+  .photo-options, .m-dropdown, .c-dropdown {
+    width: 300px;
+  }
+  .lrc-options {
+    flex-direction: column;
+  }
+  .lrc-options div {
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+  }
+  .lrc-options div img {
+    padding: 5px;
+  }
+  .lrc-options div p {
+    font-size: 40px;
+    padding: 0 10px 0 10px;
+  }
+  .lrc-options .rec {
+    display: none;
+  }
 }

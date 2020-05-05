@@ -12,8 +12,11 @@
   <body>
      <header>
        <a href="home.html"><img src="images/Logo.jpg"></a>
+       <div class="mobile-only">
+         <button class="mobile-n-btn" id="nav-btn">MENU</button>
+       </div>
      </header>
-     <div class="nav-container">
+     <div class="nav-container hideMe" id="navigation">
        <div class="nav">
 
          <div class="c">
@@ -61,6 +64,19 @@
             <p>1-800-923-8669</p>
         </div>
         </div>
+<!--form
+        <form action="form.php" method="get" class="contact-form">
+          <fieldset>
+            <legend>Name</legend>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="First Name"></input>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="Last Name"></input>
+          </fieldset>
+        </form>
+-->
+
+
         <script type="text/javascript" src="https://form.jotform.com/jsform/201166781891057"></script>
 
         </div>
@@ -76,6 +92,7 @@
           <li>•</li>
           <li>1-800-923-8669</li>
         </ul>
+        <script src="virtual.js"></script>
       </footer>
   </body>
 </html>

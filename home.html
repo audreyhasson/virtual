@@ -11,8 +11,11 @@
   <body>
      <header>
        <a href="home.html"><img src="images/Logo.jpg"></a>
+       <div class="mobile-only">
+         <button class="mobile-n-btn" id="nav-btn">MENU</button>
+       </div>
      </header>
-     <div class="nav-container">
+     <div class="nav-container hideMe" id="navigation">
        <div class="nav">
 
          <div class="c">
@@ -48,10 +51,11 @@
          <a href="contact-us.html">Contact Us</a>
        </div>
       </div>
+
       <!-- main container -->
       <div class="main-container">
         <img src="images/homepage.jpg" class="main-image">
-        <p>About Faces Entertainment has been in business for 30 years providing live talent at events.  From caricature artists at trade shows to magicians at company dinners to stilt walkers at grand openings, we’ve done it all.  With the onset of COVID 19 and Shelter in Place edicts, we went from booking 200 events a week to zero, overnight.  Thankfully, we’re a small business, and capable of pivoting adroitly to address changes in the environment.  Even though no one is gathering in large groups in person, everyone is still doing so virtually.  And especially right now, there is plenty of need for entertainment!  So we’ve responded to that need by providing entertainment options you can book for your corporate Zoom meeting, or your birthday party where those attending are doing so on Skype, or the Nurses week appreciation events that have to be done remotely.  We can still make you smile!</p>
+        <p id="homepage">About Faces Entertainment has been in business for 30 years providing live talent at events.  From caricature artists at trade shows to magicians at company dinners to stilt walkers at grand openings, we’ve done it all.  With the onset of COVID 19 and Shelter in Place edicts, we went from booking 200 events a week to zero, overnight.  Thankfully, we’re a small business, and capable of pivoting adroitly to address changes in the environment.  Even though no one is gathering in large groups in person, everyone is still doing so virtually.  And especially right now, there is plenty of need for entertainment!  So we’ve responded to that need by providing entertainment options you can book for your corporate Zoom meeting, or your birthday party where those attending are doing so on Skype, or the Nurses week appreciation events that have to be done remotely.  We can still make you smile!</p>
       </div>
 
       <footer>
@@ -62,6 +66,8 @@
           <li>•</li>
           <li>1-800-923-8669</li>
         </ul>
+        <script src="virtual.js"></script>
+
       </footer>
   </body>
 </html>
