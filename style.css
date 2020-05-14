@@ -13,6 +13,8 @@ header {
 header a {
   padding: 0;
 }
+
+
 /*styling the navigation*/
 
 .nav {
@@ -283,10 +285,14 @@ h2 {
 
 /* contact page */
 
+
 .page-content .contact-content{
   padding: 0;
-  margin: auto;
+  margin: 0;
+  text-align: left;
+  padding-left: 30px;
 }
+
 
 .contact-content button {
   background-color: #0094d0;
@@ -308,17 +314,95 @@ h2 {
 
 /* contact form */
 
-.contact-form input {
-  display: block;
-  margin: 10px;
+.contact-form {
+  width: 500px;
+  margin: auto;
+  background-color: #5faecf;
+  padding: 20px;
+  float: left;
 }
 
-.contact-form label {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact-form button, .contact-form input, .contact-form select, .contact-form textarea {
+  font-family: inherit;
+  font-size: 18px;
+  width : 300px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contact-form input {
+  display: block;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  padding: 10px;
+}
+
+.contact-form input:focus {
+  border: 1px solid #787878;
+
+}
+
+fieldset {
+  border: none;
+  padding: 0;
   margin: auto;
 }
 
-#c-h1 {
-  margin: 15px;
+.f-name {
+  display: flex;
+}
+
+.f-name label {
+  font-size: 14px;
+}
+
+.f-name div {
+  width: 200px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.contact-form .f-name input {
+  width: 200px;
+  margin: 0;
+}
+
+.contact-form input {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.f-time {
+  display: flex;
+}
+
+.f-time input {
+  margin-right: 20px;
+  width: 100px;
+}
+
+.contact-form button {
+  width: 100px;
+  color: #000;
+  background-color: #fff;
+  font-weight: normal;
+  height: 40px;
+}
+
+.time-leg {
+  margin-bottom: 10px;
+}
+
+.contact-form hr {
+  border: 1px solid #fff;
 }
 
 /* mobile version! */

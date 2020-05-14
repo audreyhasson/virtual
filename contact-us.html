@@ -53,31 +53,68 @@
        </div>
       </div>
       <!-- main container -->
-      <div class="main-container">
-        <h1 id="c-h1">Let's Get In Touch!</h1>
-        <div class="page-content">
+      <div class="main-container c-page">
+        <!--form: edited 5/8-->
+                <form action="form.php" method="get" class="contact-form">
+                  <fieldset>
+                    <legend>Name</legend>
+                    <div class="f-name">
+                      <div>
+                        <input type="text" id="first_name" name="First Name"></input>
+                        <label for="first_name">First Name</label>
+                      </div>
+                      <div>
+                        <input type="text" id="last_name" name="Last Name"></input>
+                        <label for="last_name">Last Name</label>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="Email"></input>
+                  <label for="phone_number">Phone Number</label>
+                  <input type="number" id="phone_number" name="Phone Number"></input>
+                  <label for="entertainment_type">What sort of entertainment are you looking for?</label>
+                  <input type="text" id="entertainment_type" name="What sort of entertainment are you looking for?"></input>
+                  <hr></hr>
+                  <fieldset>
+                    <legend class="time-leg">If you are booking an event, fill out the portion below.</legend>
+                    <label for="date">Date of Event</label>
+                    <input type="date" id="date" name="Date of Event"></input>
+                    <div class="f-time">
+                      <div>
+                        <label for="start_time">Start Time</label>
+                        <input type="time" id="start_time" name="Start Time of Event"></input>
+                      </div>
+                      <div>
+                        <label for="end_time">End Time</label>
+                        <input type="time" id="end_time" name="End Time of Event"></input>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <button type="submit">Submit</button>
+                </form>
+        <div class="pleasehelp">
+        <div class="c-h1-c">
+          <h1 id="c-h1">Let's Get In Touch!</h1>
+        </div>
+
+        <div class="page-content contact">
+
         <div class="page-text contact-content">
-          <p>We're really excited to work with you. Fill out the form below or email us with questions to get the conversation started.</p>
+          <p>We're really excited to work with you. Fill out the form on the left or email us with questions to get the conversation started.</p>
           <div class="contact-links">
             <button><a href="mailto:sales@aboutfacesentertainment.com" target="_top">Email Us!</a></button>
             </div>
             <p>1-800-923-8669</p>
+
         </div>
         </div>
-<!--form
-        <form action="form.php" method="get" class="contact-form">
-          <fieldset>
-            <legend>Name</legend>
-            <label for="first_name">First Name</label>
-            <input type="text" id="first_name" name="First Name"></input>
-            <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" name="Last Name"></input>
-          </fieldset>
-        </form>
--->
+      </div>
 
 
-        <script type="text/javascript" src="https://form.jotform.com/jsform/201166781891057"></script>
+
+
+    <!--    <script type="text/javascript" src="https://form.jotform.com/jsform/201166781891057"></script> -->
 
         </div>
       <footer>
